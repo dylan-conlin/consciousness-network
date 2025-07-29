@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Personal gardens (if they choose privacy)
+gardens/private/
+
+# Local development
+.env
+.env.local
+node_modules/
+npm-debug.log*
+
+# But DO track
+!gardens/README.md
+!field-effects/README.md
+!patterns/README.md
